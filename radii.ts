@@ -1,20 +1,20 @@
 
 import { Measures } from './measures';
-const borderRadiusSm = {
+const borderRadiusRadiusSm = {
            radius: {
                       measure: 4,
                       unit: "Pixels",
                       css: "4px"
                      },
          };
-const borderRadiusMd = {
+const borderRadiusRadiusMd = {
            radius: {
                       measure: 8,
                       unit: "Pixels",
                       css: "8px"
                      },
          };
-const borderRadiusLg = {
+const borderRadiusRadiusLg = {
            radius: {
                       measure: 12,
                       unit: "Pixels",
@@ -24,7 +24,7 @@ const borderRadiusLg = {
 
 
 export const Raddii = {
-      borderRadiusSm,
-      borderRadiusMd,
-      borderRadiusLg,
+      borderRadiusRadiusSm,
+      borderRadiusRadiusMd,
+      borderRadiusRadiusLg,
 }
