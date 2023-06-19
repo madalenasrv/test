@@ -1,28 +1,3 @@
-const lineHeightLineheightsXLarge = {
-          measure: 260,
-          unit: "Percent",
-          css: "260%"
-         };
-const lineHeightLineheightsLarge = {
-          measure: 220,
-          unit: "Percent",
-          css: "220%"
-         };
-const lineHeightLineheightsMedium = {
-          measure: 180,
-          unit: "Percent",
-          css: "180%"
-         };
-const lineHeightLineheightsSmall = {
-          measure: 140,
-          unit: "Percent",
-          css: "140%"
-         };
-const lineHeightLineheightsXSmall = {
-          measure: 100,
-          unit: "Percent",
-          css: "100%"
-         };
 const fontSizeFontsizeXSmall = {
           measure: 12,
           unit: "Pixels",
@@ -98,14 +73,53 @@ const dimensionParagraphindent0 = {
           unit: "Pixels",
           css: "0px"
          };
+const lineHeightLineheightsLarge = {
+          measure: 220,
+          unit: "Percent",
+          css: "220%"
+         };
+const lineHeightLineheightsSmall = {
+          measure: 140,
+          unit: "Percent",
+          css: "140%"
+         };
+const lineHeightLineheightsMedium = {
+          measure: 180,
+          unit: "Percent",
+          css: "180%"
+         };
+const lineHeightLineheightsXLarge = {
+          measure: 260,
+          unit: "Percent",
+          css: "260%"
+         };
+const lineHeightLineheightsXSmall = {
+          measure: 100,
+          unit: "Percent",
+          css: "100%"
+         };
+const borderWidthBorderwidth0 = {
+          measure: 0,
+          unit: "Pixels",
+          css: "0px"
+         };
+const borderWidthBorderwidth1 = {
+          measure: 1,
+          unit: "Pixels",
+          css: "1px"
+         };
+const borderWidthBorderwidth2 = {
+          measure: 2,
+          unit: "Pixels",
+          css: "2px"
+         };
+const borderWidthBorderwidth3 = {
+          measure: 4,
+          unit: "Pixels",
+          css: "4px"
+         };
 
 export const Measures = {
-      lineHeightLineheightsXLarge,
-      lineHeightLineheightsLarge,
-      lineHeightLineheightsMedium,
-      lineHeightLineheightsSmall,
-  /** denser line height */
-      lineHeightLineheightsXSmall,
       fontSizeFontsizeXSmall,
       fontSizeFontsizeSmall,
       fontSizeFontsizeMedium,
@@ -121,4 +135,14 @@ export const Measures = {
       letterSpacingLetterspacingXSmall,
       paragraphSpacingParagraphspacing0,
       dimensionParagraphindent0,
+      lineHeightLineheightsLarge,
+      lineHeightLineheightsSmall,
+      lineHeightLineheightsMedium,
+      lineHeightLineheightsXLarge,
+  /** denser line height */
+      lineHeightLineheightsXSmall,
+      borderWidthBorderwidth0,
+      borderWidthBorderwidth1,
+      borderWidthBorderwidth2,
+      borderWidthBorderwidth3,
 }
