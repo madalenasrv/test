@@ -41,7 +41,7 @@ const greenGreen7 = "#0a5e60";
 const greenGreen8 = "#094f50";
 const greenGreen9 = "#073f40";
 const greenGreen10 = "#053233";
-const token1 = "#ffffff";
+const primary = "#ffffff";
 
 export const Colors = {
     yellowYellow1,
@@ -87,5 +87,5 @@ export const Colors = {
     greenGreen8,
     greenGreen9,
     greenGreen10,
-    token1,
+    primary,
 }
