@@ -41,6 +41,11 @@ const greenGreen7 = "#0a5e60";
 const greenGreen8 = "#094f50";
 const greenGreen9 = "#073f40";
 const greenGreen10 = "#053233";
+const primarytextcolor = "#1877f2";
+const basetextcolor = greyGrey12;
+const primarybgcolor = blueBlue1;
+const basebgcolor = greyGrey2;
+const secondarytextcolor = greenGreen6;
 
 export const Colors = {
     yellowYellow1,
@@ -86,4 +91,9 @@ export const Colors = {
     greenGreen8,
     greenGreen9,
     greenGreen10,
+    primarytextcolor,
+    basetextcolor,
+    primarybgcolor,
+    basebgcolor,
+    secondarytextcolor,
 }
